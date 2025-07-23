@@ -45,7 +45,7 @@ export function ProjectModal({ project, isOpen, onOpenChange }: ProjectModalProp
                     // Modo pantalla completa para la imagen
                     <div className='fixed inset-0 z-[60] bg-black flex items-center justify-center'>
                         <img
-                            src={project.image_detalle || project.image || '/placeholder.svg'}
+                            src={project.image_detalle || project.image_url || '/placeholder.svg'}
                             alt={project.title}
                             className='max-h-screen max-w-screen p-4 object-contain'
                             style={{ transform: `scale(${imageScale})` }}
@@ -80,7 +80,7 @@ export function ProjectModal({ project, isOpen, onOpenChange }: ProjectModalProp
                             <div className='md:w-3/5 bg-gray-50 relative h-[40vh] md:h-[90vh] overflow-hidden'>
                                 <div className='absolute inset-0 flex items-center justify-center bg-[#f8f9fa]'>
                                     <img
-                                        src={project.image_detalle || project.image || '/placeholder.svg'}
+                                        src={project.image_detalle || project.image_url || '/placeholder.svg'}
                                         alt={project.title || 'Proyecto'}
                                         className='w-full h-full object-contain transition-transform duration-200'
                                         style={{ transform: `scale(${imageScale})` }}

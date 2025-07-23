@@ -114,7 +114,7 @@ export default function Portfolio() {
             id: 0,
             title: "nou capital",
             description: "Plataforma web dedicada a la evaluación de propiedades en venta en el sector español, dando índices de profit, rentabilidad, vialidad.",
-            image: "/noucapital.png",
+            image_url: "/noucapital.png",
             image_detalle: "/noucapital2.png",
             technologies: ["React", "Firebase", "Firestore", "Tailwind", "Typescript", "Fragua", "Axios", "Vite", "AWS"],
             github_url: "",
@@ -124,7 +124,7 @@ export default function Portfolio() {
             id: 1,
             title: "Thunterspa",
             description: "Aplicación web que permite la gestión, membresías para el manejo de criptomonedas.",
-            image: "/thunter.png",
+            image_url: "/thunter.png",
             image_detalle: "/thunter2.png",
             technologies: ["React", "Tailwind", "Firebase", "Telegram Api", "Solana"],
             github_url: "",
@@ -134,7 +134,7 @@ export default function Portfolio() {
             id: 2,
             title: "Solve Express",
             description: "Aplicación móvil que pudiera brindar a los trabajadores adelantos de nómina, recibir notificaciones sobre ofertas, mostrar el historial de los movimientos realizados, información de beneficios y descuentos así como una pantalla de información de la cuenta.",
-            image: "/solve.jpg",
+            image_url: "/solve.jpg",
             image_detalle: "/solve2.jpg",
             technologies: ["React Native", "Zustand", "Metamap", "Style Components", "Expo", "Axios", "AsyncStorage", "YUP"],
             github_url: "",
@@ -144,7 +144,7 @@ export default function Portfolio() {
             id: 3,
             title: "Villas Xaltipa II",
             description: "Página web enfocada a la promoción de inmuebles de lujo en Villas Xaltipa II.",
-            image: "/villasXaltipa.png",
+            image_url: "/villasXaltipa.png",
             image_detalle: "/villasXaltipaDetalle.jpg",
             technologies: ["HTML5", "CSS3", "JavaScript"],
             github_url: "#",
@@ -154,7 +154,7 @@ export default function Portfolio() {
             id: 4,
             title: "VILLAS XALTIPA II",
             description: "Página web enfocada a la promoción de inmuebles de lujo en Villas Xaltipa II.",
-            image: "/villas.jpg",
+            image_url: "/villas.jpg",
             image_detalle: "/villas2.png",
             technologies: ["Next", "tailwind", "Formik", "SSR", "TypeScript"],
             github_url: "#",
@@ -164,7 +164,7 @@ export default function Portfolio() {
             id: 5,
             title: "Login Prueba Técnica",
             description: "Login con opción de registro de nuevos usuarios, añadiendo filtro de datos",
-            image: "/login.png",
+            image_url: "/login.png",
             image_detalle: "/login2.png",
             technologies: ["React", "HTML5", "CSS3", ],
             github_url: "https://github.com/KichYoyo07/pruebaAzteca",
@@ -336,7 +336,7 @@ export default function Portfolio() {
                                 >
                                     <div className="relative overflow-hidden rounded-t-lg">
                                         <img
-                                            src={project.image || "/placeholder.svg"}
+                                            src={project.image_url || "/placeholder.svg"}
                                             alt={project.title}
                                             className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                                         />
@@ -394,7 +394,7 @@ export default function Portfolio() {
                                         id: index,
                                         title: project.title,
                                         description: project.description,
-                                        image_url: project.image,
+                                        image_url: project.image_url,
                                         technologies: project.technologies,
                                         github_url: project.github_url,
                                         demo_url: project.demo_url
@@ -404,7 +404,7 @@ export default function Portfolio() {
                                 >
                                     <div className="relative overflow-hidden rounded-t-lg">
                                         <img
-                                            src={project.image || "/placeholder.svg"}
+                                            src={project.image_url || "/placeholder.svg"}
                                             alt={project.title}
                                             className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                                         />
