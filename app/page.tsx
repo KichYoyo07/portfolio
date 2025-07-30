@@ -142,6 +142,16 @@ export default function Portfolio() {
         },
         {
             id: 3,
+            title: "Generador de Contraseñas",
+            description: "Aplicación web diseñada para generar contraseñas seguras y personalizadas, con opciones de longitud y complejidad.",
+            image_url: "/generador.png",
+            image_detalle: "/generador2.png",
+            technologies: ["Next", "Tailwind", "Sqlite", "TypeScript", "Prisma", "Shadcn" ],
+            github_url: "https://github.com/KichYoyo07/password-generator",
+            demo_url: "https://password-generator-black-eta.vercel.app/",
+        },
+        {
+            id: 4,
             title: "Villas Xaltipa II",
             description: "Página web enfocada a la promoción de inmuebles de lujo en Villas Xaltipa II.",
             image_url: "/villasXaltipa.png",
@@ -151,7 +161,7 @@ export default function Portfolio() {
             demo_url: "https://villasxaltipaii-casaskrearesidencial.com.mx/",
         },
         {
-            id: 4,
+            id: 5,
             title: "VILLAS XALTIPA II",
             description: "Página web enfocada a la promoción de inmuebles de lujo en Villas Xaltipa II.",
             image_url: "/villas.jpg",
@@ -161,7 +171,7 @@ export default function Portfolio() {
             demo_url: "https://www.casasnuevascuatitlan.com/",
         },
         {
-            id: 5,
+            id: 6,
             title: "Login Prueba Técnica",
             description: "Login con opción de registro de nuevos usuarios, añadiendo filtro de datos",
             image_url: "/login.png",
