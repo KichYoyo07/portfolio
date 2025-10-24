@@ -52,7 +52,7 @@ export default function Portfolio() {
 
     const onSubmit = async (data: FormData) => {
         // Aquí puedes manejar el envío del formulario
-        console.log(data);
+        // console.log(data);
         // Resetear el formulario y cerrar el modal
         reset();
         setIsOpen(false);
@@ -184,7 +184,7 @@ export default function Portfolio() {
         { name: 'Design', icon: Palette, items: ['Figma', 'Adobe XD', 'UI/UX', 'Responsive Design'] },
         { name: 'Mobile', icon: Smartphone, items: ['React Native', 'Expo', 'iOS', 'Android'] },
     ];
-    console.log(projects);
+    // console.log(projects);
 
     return (
         <div className='min-h-screen bg-white'>
